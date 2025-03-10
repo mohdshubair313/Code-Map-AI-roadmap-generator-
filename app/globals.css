@@ -20,7 +20,7 @@
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle, rgba(197,197,210,1) 1%, rgba(189,196,215,1) 6%, rgba(195,193,238,1) 8%, rgba(201,200,217,1) 12%, rgba(175,191,237,1) 21%, rgba(225,225,244,1) 39%, rgba(188,187,224,1) 47%, rgba(209,209,235,1) 85%, rgba(127,154,220,1) 92%, rgba(195,194,223,1) 94%, rgba(92,131,213,1) 94%, rgba(127,154,220,1) 100%, rgba(44,159,251,1) 100%, rgba(0,212,255,0.5046393557422969) 100%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

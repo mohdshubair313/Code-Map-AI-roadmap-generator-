@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import { Upload, MessageSquare } from "lucide-react"
 import { motion } from "framer-motion"
 import AiAvatar from "./ai-avatar"
-import Particles from "./particles"
 
 export default function HeroSection() {
   const [isHovered, setIsHovered] = useState(false)
@@ -16,7 +15,6 @@ export default function HeroSection() {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
-      <Particles />
 
       <div className="container mx-auto max-w-6xl z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

@@ -107,29 +107,6 @@ export default function AiAvatar() {
         </div>
       </div>
 
-      {/* Floating particles */}
-      {[...Array(20)].map((_, i) => (
-        <motion.div
-          key={i}
-          className="absolute rounded-full bg-cyan-400"
-          style={{
-            width: `${Math.random() * 6 + 2}px`,
-            height: `${Math.random() * 6 + 2}px`,
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-          }}
-          animate={{
-            y: [0, -20, 0],
-            opacity: [0, 1, 0],
-          }}
-          transition={{
-            duration: Math.random() * 3 + 2,
-            repeat: Number.POSITIVE_INFINITY,
-            delay: Math.random() * 5,
-          }}
-        />
-      ))}
-
       {/* Status indicator */}
       <div className="absolute bottom-4 left-4 right-4 p-4 bg-black/20 backdrop-blur-md rounded-xl">
         <div className="flex items-center space-x-2">
